@@ -8,7 +8,7 @@ const AccountItem = () => {
    return (
       <li className={cx('account_item')}>
          <img
-            src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/1126c7ba93d2b2517b0944bc4111f460~tplv-tiktokx-cropcenter:720:720.jpeg?dr=14579&refresh_token=26540b1c&x-expires=1755010800&x-signature=br10Hj9R3TPOtPGXBu4XtCcpXfM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my"
+            src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-1/369076395_1454476938668898_2840145980371506315_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=111&ccb=1-7&_nc_sid=1d2534&_nc_ohc=W-ON7D4X1TcQ7kNvwHEr-bV&_nc_oc=AdnnI7dZk4C5qULfVTMT5TH5fvQLZ7cZ6dZa8PFWA3sJHrhjxSxV-GmXVzaQ0VEdHDE&_nc_zt=24&_nc_ht=scontent.fhan14-3.fna&_nc_gid=8lKYjgLhi9NPMbHt1FXEvw&oh=00_AfUmnQNzh5ntONTLDSEnwzIuB3tqnkGSlJbzU6QiYoY0xQ&oe=68B24A02"
             alt=""
          />
          <div className={cx('info')}>

@@ -10,13 +10,8 @@ const MainLayout = () => {
    return (
       <div>
          <Header></Header>
-         <div className={cx('body_container', 'grid', 'wide')}>
-            <div className={cx('row')}>
-               <SideBar></SideBar>
 
-               <Outlet />
-            </div>
-         </div>
+         <Outlet />
       </div>
    );
 };

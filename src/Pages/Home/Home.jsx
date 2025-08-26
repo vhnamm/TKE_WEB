@@ -1,13 +1,14 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './Home.module.scss';
+import Button from '~/components/UI/Button/Button';
+import Card from '~/components/UI/Card/Card';
+import HomeProducts from '~/components/Components/HomeProducts/HomeProducts';
 const cx = classNames.bind(styles);
 const Home = () => {
    return (
-      <div className={cx('col lg-10')}>
-         <div className={cx('home_wrapper')}>
-            <h2>HOme page</h2>
-         </div>
+      <div className={cx('body_container')}>
+         <HomeProducts />
       </div>
    );
 };

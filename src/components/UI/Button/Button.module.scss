@@ -1,0 +1,21 @@
+.btn {
+}
+
+.primary {
+   background-color: var(--primary);
+   color: #fff;
+   width: 160px;
+   height: 44px;
+   border-radius: 24px;
+   font-size: 2rem;
+}
+
+.outline {
+   background-color: #fff;
+   color: var(--primary);
+   width: 160px;
+   height: 44px;
+   border-radius: 16px;
+   font-size: 2rem;
+   border: 1px solid var(--primary);
+}
