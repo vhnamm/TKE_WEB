@@ -5,7 +5,7 @@ import { faBagShopping, faCircleXmark, faMagnifyingGlass, faSpinner, faUser } fr
 
 import Button from '../UI/Button/Button';
 import PopperContainer from '../UI/Popper/PopperContainer';
-import AccountItem from '~/components/AccountItem/AccountItem';
+
 import classNames from 'classnames/bind';
 import styles from './Header.module.scss';
 import images from '~/assets';
